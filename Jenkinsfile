@@ -2,13 +2,13 @@ pipeline {
     agent any
 
     environment {
-        RECIPIENT = 'vinithaaveeramanii@gmail.com'
+        RECIPIENT = 'bharatbellamkonda18@gmail.com'
     }
 
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/Vinithaa2025/Credittask.git'
+                git branch: 'main', url: 'https://github.com/BHARADWAJ-cyber183/SIT-8.1.2.git'
             }
         }
 
